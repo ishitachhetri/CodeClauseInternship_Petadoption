@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Center</h1>
+    </header>
+    
+    <main>
+        <section id="filters">
+            <label for="species-filter">Filter by Species:</label>
+            <select id="species-filter">
+                <option value="all">All</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="bird">Bird</option>
+            </select>
+        </section>
+        
+        <section id="categories">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="Friendly">Friendly</option>
+                <option value="Energetic">Energetic</option>
+                <option value="Cuddly">Cuddly</option>
+                <!-- Add more categories here -->
+            </select>
+        </section>
+        
+        <section id="pet-list">
+            <!-- Pet listings will be displayed here -->
+        </section>
+
+        <div id="pagination">
+            <!-- Pagination buttons will be displayed here -->
+        </div>
+
+        <div id="pet-modal" class="modal">
+            <!-- Pet details will be displayed here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Pet Adoption Center</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
